@@ -2,9 +2,20 @@
 
 A responsive React application for exploring England's river-level measurements and nearby flood alerts using the Environment Agency's public HTTPS API. Built as an AI-assisted learning project for JCS Module 1b.
 
+## Live application
+
+[Open Riverwatch](https://riverwatch-jcs-mod1b.outerfairy.chatgpt.site/). The application and this GitHub repository are public; the assessor does not need an invitation to access them.
+
 ## Run locally
 
-Install Node.js 22.12 or newer and npm. From this folder:
+Install Node.js 22.12 or newer, npm and Git. Clone the repository and open its folder:
+
+```sh
+git clone https://github.com/Gazzybear/riverwatch-jcs-module-1b.git
+cd riverwatch-jcs-module-1b
+```
+
+Then install the dependencies and start the application:
 
 ```sh
 npm ci
@@ -62,11 +73,11 @@ The first alphabetical station is selected automatically after a search. On a sm
 
 ## Hosting and source submission
 
-This is a static Vite application. A host needs build command `npm ci && npm run build` and output directory `dist`. `.openai/hosting.json` identifies the private Sites deployment; it is not needed to run the project locally.
+This is a static Vite application. A host needs build command `npm ci && npm run build` and output directory `dist`. `.openai/hosting.json` identifies the Sites deployment; it is not needed to run the project locally.
 
-Source repository: [Gazzybear/riverwatch-jcs-module-1b](https://github.com/Gazzybear/riverwatch-jcs-module-1b) (private).
+Source repository: [Gazzybear/riverwatch-jcs-module-1b](https://github.com/Gazzybear/riverwatch-jcs-module-1b) (public).
 
-For assessment, ensure the marker can access this repository. A private preview alone does not give the marker source access. See `docs/ASSESSMENT.md` before submitting. The course certificate and signed declaration belong in the assessment portal, not the application repository.
+The assessor can use the live application or build it from this repository using the instructions above. See `docs/ASSESSMENT.md` before submitting. The course certificate and signed declaration belong in the assessment portal, not the application repository.
 
 ## Authorship
 
